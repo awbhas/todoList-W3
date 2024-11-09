@@ -1,0 +1,73 @@
+/* Signup container */
+  .signin{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  /* Card styling for form */
+  .container-signin {
+    margin-top: 100px;
+
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    background: #fff;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  #heading {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(240, 0, 0, 0.87);
+  }
+  
+  /* Input fields */
+  .input-signin {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-signin:focus {
+    outline: none;
+    border-color: #6e8efb;
+    box-shadow: 0px 0px 8px rgba(110, 142, 251, 0.5);
+  }
+  
+  /* Submit button */
+  .btn-signin {
+    background: #6e8efb;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-signin:hover {
+    background: #4f6cfb;
+    cursor: pointer;
+  }
+  
+  .btn-signin:active {
+    background: #354acf;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .col-left {
+      display: none;
+    }
+    .column {
+      padding: 1.5rem;
+    }
+  }
+  

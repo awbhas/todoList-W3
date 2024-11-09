@@ -1,0 +1,24 @@
+.user-png {
+  width: 30px;
+  height: 30px;
+}
+.navbar-brand {
+  color: rgba(240, 0, 0, 0.87);
+  font-size: 25px;
+  font-weight: bold;
+}
+.container{
+  height: 70px;
+}
+
+.btn-nav {
+  background-color: #0d6efd;
+  border-radius: 5px;
+  color: white !important;
+  font-weight: bold;
+}
+.btn-nav:hover {
+  background-color: #5a78e7;
+  transform: scale(1.05);
+  transition: background 0.3s ease, transform 0.2s ease;
+}

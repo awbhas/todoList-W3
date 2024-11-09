@@ -1,0 +1,31 @@
+/* Fullscreen background */
+
+.home {
+  min-height: 100vh;
+  background: white;
+  color: #ffffff;
+}
+
+h1,p{
+  color: black;
+}
+/* Container styling */
+.container-1 {
+  max-width: 600px;
+  padding: 2rem;
+  box-shadow: none;
+}
+
+/* Button styling */
+.home-btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.home-btn:hover {
+  background-color: #5a78e7;
+  transform: scale(1.05);
+}
