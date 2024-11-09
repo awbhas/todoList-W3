@@ -20,7 +20,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        `${window.location.origin}/api/v1/register`,
+        `http://localhost:1000/api/v1/register`,
         inputs
       );
       
@@ -33,7 +33,7 @@ const Signup = () => {
           username: "",
           password: "",
         });
-        history("/signin");
+        history("/signup");
       }
     } catch (error) {
       console.error("An error occurred during registration:", error);
